@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="15%" r="90%">
+      <stop offset="0%" stop-color="#2C5240"/>
+      <stop offset="50%" stop-color="#1F3A2E"/>
+      <stop offset="100%" stop-color="#152A21"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- dashed ring, echoes hero portrait ring -->
+  <circle cx="256" cy="256" r="205" fill="none" stroke="#E4C567" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="4 14" stroke-linecap="round"/>
+
+  <!-- growth stem + leaf, echoes timeline signature element -->
+  <path d="M 96 430 C 100 360, 150 350, 140 300" fill="none" stroke="#6B8F71" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M138 300c6-4 8-32-14-40 8 22-2 36 14 40z" fill="#CBA135"/>
+
+  <path d="M 416 430 C 412 360, 362 350, 372 300" fill="none" stroke="#6B8F71" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <path d="M374 300c-6-4-8-32 14-40-8 22 2 36-14 40z" fill="#CBA135"/>
+
+  <!-- monogram -->
+  <text x="256" y="300" text-anchor="middle"
+        font-family="'Be Vietnam Pro','Helvetica Neue',Arial,sans-serif"
+        font-weight="800" font-size="188" letter-spacing="-4"
+        fill="#F6F3E6">NTL</text>
+
+  <!-- rule + full name -->
+  <line x1="146" y1="336" x2="366" y2="336" stroke="#CBA135" stroke-width="3" stroke-linecap="round"/>
+  <text x="256" y="374" text-anchor="middle"
+        font-family="'IBM Plex Mono',monospace"
+        font-weight="500" font-size="26" letter-spacing="2"
+        fill="#CBA135">NGUYỄN THỊ TRÚC LINH</text>
+</svg>
